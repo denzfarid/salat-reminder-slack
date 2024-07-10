@@ -110,10 +110,10 @@ def slack_sender(name: str, time: datetime):
 
     if name == "Imsak":
        message = f'\n\n *{name} : {time}*'
-       pre_message_10mins = f'*{advminutes} menit* menuju waktu *{name}* :mosque:'
+       pre_message_10mins = f'Assalamualaikum <!channel>, *{advminutes} menit* menuju waktu *{name}* :mosque:'
     else:
        message = f'\n\n *{name} : {time}*'
-       pre_message_10mins = f'*{advminutes} menit* menuju waktu Salat *{name}* :mosque:'
+       pre_message_10mins = f'Assalamualaikum <!channel>, *{advminutes} menit* menuju waktu Salat *{name}* :mosque:'
 
     payloaddict = {
         'username': username,
