@@ -1,1 +1,1 @@
-curl -X POST https://hooks.slack.com/services/xxxx/xxxxx -d '{"username": "Pengingat solat", "color": "#36a64f", "pretext": "*10 menit* menuju waktu Salat *Asar* :mosque:", "text": "\n\n *Asar : 15:22*", "icon_emoji": ":kaaba:"}'
+curl -X POST https://hooks.slack.com/services/xxxx/xxxxx -d '{"username": "Pengingat solat", "color": "#36a64f", "pretext": "Assalamualaikum <!channel>, *10 menit* menuju waktu Salat *Asar* :mosque:", "text": "\n\n *Asar : 15:22*", "icon_emoji": ":kaaba:"}'

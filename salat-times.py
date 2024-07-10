@@ -36,7 +36,7 @@ print(hijriday, hijrimonth, hijriyear)
 
 advminutes = 10
 start_message = f'*{date}* ({hijriweekday} - {hijriday} {hijrimonth}, {hijriyear}) \n\n'
-pre_message = f'Hai <!channel> , mengingatkan waktu Salat & Imsakiyah untuk *{cityname}* dan sekitar nya :mosque:\n'
+pre_message = f'Assalamualaikum <!channel> , mengingatkan waktu Salat & Imsakiyah untuk *{cityname}* dan sekitar nya :mosque:\n'
 
 def convert_prayer_name(name: str) -> str:
 
