@@ -9,8 +9,8 @@ from urllib.request import urlopen
 cityname = 'Jakarta'
 countryname = 'Indonesia'
 color = '#36a64f'
-url = f'http://api.aladhan.com/v1/timingsByAddress?address={cityname},{countryname}&method=11&tune=2,2,0,4,2,4,0,2,0'
-username = 'Haji Toped'
+url = f'http://api.aladhan.com/v1/timingsByAddress?address={cityname},{countryname}&method=20&tune=2,2,0,4,2,4,0,2,0'
+username = 'Pengingat solat'
 emojicon = ':kaaba:'
 webhookurl = 'https://hooks.slack.com/services/xxxx/xxxxx'
 print(url)
