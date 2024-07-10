@@ -1,1 +1,0 @@
-curl -X POST https://hooks.slack.com/services/xxxx/xxxxx -d '{"username": "Pengingat solat", "color": "#36a64f", "pretext": "Assalamualaikum <!channel>, *10 menit* menuju waktu Salat *Dhuhur* :mosque:", "text": "\n\n *Dhuhur : 12:02*", "icon_emoji": ":kaaba:"}'
