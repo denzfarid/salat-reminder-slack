@@ -48,6 +48,10 @@ def convert_prayer_name(name: str) -> str:
         name = 'Asar'
     elif name == 'Isha':
         name = 'Isya'
+    elif name == 'Firstthird':
+        name = 'Sepertiga Malam Awal'
+    elif name == 'Lastthird':
+        name = 'Sepertiga Malam Akhir'
     else:
         name = name.title()
 
